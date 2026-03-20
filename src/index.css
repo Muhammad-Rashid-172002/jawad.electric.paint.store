@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e3a8a; /* Dark Blue */
+  --color-accent: #3b82f6;  /* Electric Blue */
+  --color-bg-light: #f3f4f6; /* Light Gray */
+}
+
+@layer base {
+  body {
+    @apply bg-bg-light text-gray-900 font-sans;
+  }
+}
+
+.glass-nav {
+  @apply sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200;
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2;
+}
+
+.btn-accent {
+  @apply bg-accent hover:bg-accent/90 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2;
+}
+
+.btn-outline {
+  @apply border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+}
