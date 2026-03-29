@@ -36,7 +36,7 @@ Make sure you have **Node.js** installed on your system.
 1. Clone the repository
 
 ```
-git clone <your-repository-link>
+git clone https://github.com/Muhammad-Rashid-172002/jawad.electric.paint.store.git
 ```
 
 2. Navigate to the project folder
