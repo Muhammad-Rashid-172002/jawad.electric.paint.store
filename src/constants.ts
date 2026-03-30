@@ -66,4 +66,6 @@ export const PRODUCTS: Product[] = [
   { id: 's6', name: 'Bathroom Fittings', category: 'sanitary', description: 'Modern bathroom sets and accessories.', image: 'https://images.unsplash.com/photo-1620626011761-9963d7b59a7a?auto=format&fit=crop&q=80&w=400' },
   { id: 's7', name: 'Taps', category: 'sanitary', description: 'Designer taps for kitchens and bathrooms.', image: 'https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=400' },
   { id: 's8', name: 'Plumbing Accessories', category: 'sanitary', description: 'Essential tools and parts for plumbing.', image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=400' },
+    { id: 's8', name: 'Plumbing Accessories', category: 'sanitary', description: 'Essential tools and parts for plumbing.', image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=400' },
+
 ];
